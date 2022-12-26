@@ -1,7 +1,33 @@
-.App {
-  text-align: center;
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 50px;
 }
-
+.btnGroup {
+  margin-bottom: 30px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  border: rgb(115, 113, 113) ridge 1px;
+  border-style: inset;
+  border-width: 3px;
+  border-radius: 10px;
+  margin: 5px; 
+  width: 20rem;
+  padding: 10px;
+  background-color: rgb(233, 233, 238);
+  text-decoration: none;
+  color: black;
+}
+.box:hover {
+  background-color: rgb(206, 206, 208);
+  cursor: pointer;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -17,7 +43,7 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
